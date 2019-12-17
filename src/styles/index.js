@@ -81,7 +81,8 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     position: 'absolute',
-    top: -20,
+    top: height-745,
+    zIndex:100,
     left: width/2-20,
   }
 });

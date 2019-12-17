@@ -24,9 +24,10 @@ const Buttons = () => {
     onStateChange;
     setShowLogin(false);
   };
+  console.log(height)
   return (
     <View style={{ height: height / 3, justifyContent: "center" }}>
-      <TapGestureHandler onHandlerStateChange={onStateChange}>
+      <TapGestureHandler onHandlerStateChange={viewLogin}>
         <Animated.View
           style={{
             ...styles.button,

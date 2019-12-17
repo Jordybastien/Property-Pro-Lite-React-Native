@@ -20,7 +20,7 @@ const Signup = () => {
         zIndex: formZindex,
         opacity: formOpacity,
         transform: [{ translateY: formInputY }],
-        height: height / 3,
+        height: height / 1,
         ...styles.splashContainer,
         top: null,
         justifyContent: "center"
